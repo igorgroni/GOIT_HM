@@ -1,0 +1,37 @@
+{
+    "ann": {
+        "name": "ann",
+        "phones": [
+            "+380635469933"
+        ],
+        "birthday": null
+    },
+    "viktor": {
+        "name": "viktor",
+        "phones": [
+            "+380508470034"
+        ],
+        "birthday": null
+    },
+    "sara": {
+        "name": "sara",
+        "phones": [
+            "+380954568543"
+        ],
+        "birthday": "12-04-1997"
+    },
+    "ron": {
+        "name": "ron",
+        "phones": [
+            "+380631528822"
+        ],
+        "birthday": null
+    },
+    "gana": {
+        "name": "gana",
+        "phones": [
+            "+380932241123"
+        ],
+        "birthday": null
+    }
+}
