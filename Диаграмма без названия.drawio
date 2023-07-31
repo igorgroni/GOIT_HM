@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T14:29:10.764Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="qvcqlBJEQQ3G2ZtTe0AQ" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T14:30:31.176Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="AvvHeP-igBUY0HHZ2G5M" version="21.6.6" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QneFAxLRqx1BpGbRxNG7-2" value="Contact" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="10" width="170" height="300" as="geometry">
+          <mxGeometry x="30" y="10" width="170" height="300" as="geometry">
             <mxRectangle x="280" y="140" width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -36,8 +36,13 @@
         <mxCell id="QneFAxLRqx1BpGbRxNG7-14" value="birthday_check(birthday)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QneFAxLRqx1BpGbRxNG7-2">
           <mxGeometry y="270" width="170" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QneFAxLRqx1BpGbRxNG7-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QneFAxLRqx1BpGbRxNG7-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QneFAxLRqx1BpGbRxNG7-15" value="Contactmanager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="160" width="215" height="480" as="geometry" />
+          <mxGeometry x="70" y="400" width="215" height="480" as="geometry" />
         </mxCell>
         <mxCell id="QneFAxLRqx1BpGbRxNG7-16" value="handle_email(self, contact)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QneFAxLRqx1BpGbRxNG7-15">
           <mxGeometry y="30" width="215" height="30" as="geometry" />
@@ -85,7 +90,7 @@
           <mxGeometry y="450" width="215" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QneFAxLRqx1BpGbRxNG7-34" value="Note" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="260" width="160" height="120" as="geometry" />
+          <mxGeometry x="440" y="30" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QneFAxLRqx1BpGbRxNG7-35" value="note_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QneFAxLRqx1BpGbRxNG7-34">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -96,8 +101,13 @@
         <mxCell id="QneFAxLRqx1BpGbRxNG7-39" value="content" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QneFAxLRqx1BpGbRxNG7-34">
           <mxGeometry y="90" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QneFAxLRqx1BpGbRxNG7-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QneFAxLRqx1BpGbRxNG7-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QneFAxLRqx1BpGbRxNG7-41" value="NoteManager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="450" width="140" height="390" as="geometry" />
+          <mxGeometry x="520" y="280" width="140" height="390" as="geometry" />
         </mxCell>
         <mxCell id="QneFAxLRqx1BpGbRxNG7-42" value="+notes_file" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="QneFAxLRqx1BpGbRxNG7-41">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
